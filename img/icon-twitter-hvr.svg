@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="48" viewBox="0 0 46 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="14.531" y="16.813" width="17.813" height="14.188" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <image id="Layer_52_copy_4" data-name="Layer 52 copy 4" width="46" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAwCAYAAABuZUjcAAAAaElEQVRoge3asQ3AIBQDUYOYgCEzFrNkoTADok5/0pfula5uALdnvV8KGklmxfD+W4ownGY4zXCa4TTDaYbTDKcZTjOcZjjNcJrhNMNphtMMpxlOM5xmOM1wmuE0w2mG0+57YperTnIATo8EFS8FD4kAAAAASUVORK5CYII="/>
+  <path id="twitter_copy" data-name="twitter copy" class="cls-1" d="M32.353,18.483a7.436,7.436,0,0,1-2.1.564,3.611,3.611,0,0,0,1.606-1.983,7.409,7.409,0,0,1-2.32.87A3.681,3.681,0,0,0,26.874,16.8a3.62,3.62,0,0,0-3.654,3.584,3.528,3.528,0,0,0,.095.817,10.436,10.436,0,0,1-7.531-3.745,3.516,3.516,0,0,0-.495,1.8,3.565,3.565,0,0,0,1.625,2.983A3.7,3.7,0,0,1,15.26,21.8c0,0.014,0,.029,0,0.045a3.6,3.6,0,0,0,2.931,3.515,3.7,3.7,0,0,1-.963.126,3.758,3.758,0,0,1-.687-0.064,3.651,3.651,0,0,0,3.413,2.489,7.5,7.5,0,0,1-5.409,1.484A10.48,10.48,0,0,0,20.145,31a10.221,10.221,0,0,0,10.4-10.2q0-.233-0.011-0.464A7.355,7.355,0,0,0,32.353,18.483Z"/>
+</svg>

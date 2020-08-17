@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="48" viewBox="0 0 46 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b8b8b8;
+        fill-rule: evenodd;
+        opacity: 0.3;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="20.031" y="13.688" width="8.313" height="17.844" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <image id="Layer_52_copy_5" data-name="Layer 52 copy 5" width="47" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAwCAYAAACBpyPiAAAAe0lEQVRoge3aMQ2AQBQE0YUggJwENKENN0gBCRckkKNFwOQn88qtRsBO+3FeSdbU8yxJtoLhQ5uT9N9cQ5+Lhn+MpxhPMZ5iPMV4ivEU4ynGU4ynGE8xnmI8xXiK8RTjKcZTjKcYTzGeYjzFeMqIb0Xb23h93CUvK8nzAj7GB/r89JOlAAAAAElFTkSuQmCC"/>
+  <path id="facebook_copy_2" data-name="facebook copy 2" class="cls-1" d="M25.544,31.518H21.859V22.609H20.017V19.539h1.842V17.7c0-2.5,1.04-3.994,3.994-3.994h2.46v3.071H26.775c-1.15,0-1.226.429-1.226,1.23l0,1.537H28.33L28,22.609h-2.46v8.908Z"/>
+</svg>
