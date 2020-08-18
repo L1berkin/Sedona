@@ -38,7 +38,16 @@ body {
   background-color: #81b3d2;
 }
 
-.mobile-nav__btn {
+.mobile-nav__link:hover {
+  background-color: #669ec0;
+}
+
+.mobile-nav__link:active {
+  background-color: #5496bd;
+  color: #7aabcd;
+}
+
+.header__drop-menu__btn_close {
   position: absolute;
   width: 12%;
   background-color: transparent;
@@ -46,7 +55,6 @@ body {
   top: 13px;
   right: 2%;
 }
-
 .header__drop-menu__btn {
   display: block;
   position: absolute;
