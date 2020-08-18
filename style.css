@@ -215,7 +215,7 @@ body {
 .main__photo-city {
   grid-column: 2 / 4;
   grid-row: 1 / 2;
-  background-image: url(/img/photo-city.svg);
+  background-image: url(img/photo-city.svg);
 }
 
 .main__house {
@@ -241,7 +241,7 @@ body {
 .main__photo-bridge {
   grid-column: 1 / 3;
   grid-row: 3 / 4;
-  background-image: url(/img/photo-bridge.svg);
+  background-image: url(img/photo-bridge.svg);
 }
 
 .main__reason-2 {
@@ -369,50 +369,50 @@ body {
 }
 
 .icon-youtube {
-  background-image: url(/img/icon-youtube.svg);
+  background-image: url(img/icon-youtube.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .icon-twitter {
-  background-image: url(/img/icon-twitter.svg);
+  background-image: url(img/icon-twitter.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .icon-facebook {
-  background-image: url(/img/icon-facebook.svg);
+  background-image: url(img/icon-facebook.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .icon-youtube:hover {
-  background-image: url(/img/icon-youtube-hvr.svg);
+  background-image: url(img/icon-youtube-hvr.svg);
   background-size: 100% 100%;
 }
 
 .icon-twitter:hover {
-  background-image: url(/img/icon-twitter-hvr.svg);
+  background-image: url(img/icon-twitter-hvr.svg);
   background-size: 100% 100%;
 }
 
 .icon-facebook:hover {
-  background-image: url(/img/icon-facebook-hvr.svg);
+  background-image: url(img/icon-facebook-hvr.svg);
   background-size: 100% 100%;
 }
 
 .icon-youtube:active {
-  background-image: url(/img/icon-youtube-active.svg);
+  background-image: url(img/icon-youtube-active.svg);
   background-size: 100% 100%;
 }
 
 .icon-twitter:active {
-  background-image: url(/img/icon-twitter-active.svg);
+  background-image: url(img/icon-twitter-active.svg);
   background-size: 100% 100%;
 }
 
 .icon-facebook:active {
-  background-image: url(/img/icon-facebook-active.svg);
+  background-image: url(img/icon-facebook-active.svg);
   background-size: 100% 100%;
 }
 
@@ -449,17 +449,17 @@ body {
 
 .icon-html {
   display: inline-block;
-  background-image: url(/img/htmlacademy.svg);
+  background-image: url(img/htmlacademy.svg);
   background-repeat: no-repeat;
 }
 
 .icon-html:hover {
-  background-image: url(/img/htmlacademy-hvr.svg);
+  background-image: url(img/htmlacademy-hvr.svg);
   background-repeat: no-repeat;
 }
 
 .icon-html:active {
-  background-image: url(/img/htmlacademy-active.svg);
+  background-image: url(img/htmlacademy-active.svg);
   background-repeat: no-repeat;
 }
 
@@ -589,7 +589,7 @@ body {
     flex-direction: column;
   }
   .main__reason-1 {
-    background-image: url(/img/blue-background.png);
+    background-image: url(img/blue-background.png);
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -599,7 +599,7 @@ body {
   .main__photo-city {
     width: 100%;
     height: 260px;
-    background-image: url(/img/photo-city-mobile.png);
+    background-image: url(img/photo-city-mobile.png);
     margin-bottom: 10%;
   }
   .dignity  {
