@@ -338,8 +338,7 @@ body {
   grid-column: 1 / 4;
   grid-row: 6 / 7;
 }
-/*120
-2679*/
+
 .footer {
   display: flex;
   height: 7.8em;
