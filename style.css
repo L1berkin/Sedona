@@ -11,6 +11,61 @@ body {
   width: 100%;
 }
 
+.header__drop-menu {
+  display: none;
+}
+
+.mobile-nav {
+  display: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  height: 220px;
+}
+
+.mobile-nav__link {
+  text-align: center;
+  width: 100%;
+  height: 25%;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-size: 0.9em;
+  padding: 16px 0;
+  font-family: "PT Sans";
+  background-color: #81b3d2;
+}
+
+.mobile-nav__btn {
+  position: absolute;
+  width: 12%;
+  background-color: transparent;
+  border: none;
+  top: 13px;
+  right: 2%;
+}
+
+.header__drop-menu__btn {
+  display: block;
+  position: absolute;
+  width: 12%;
+  top: 15px;
+  right: 2%;
+  background-color: #fff;
+  border: none;
+}
+
+.header__drop-menu__btn:focus {
+  top: 235px;
+  right: 2%;
+}
+
+.header__drop-menu__btn:focus + .mobile-nav {
+  display: flex;
+}
+
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -106,7 +161,7 @@ body {
   background-color: #81b3d2;
   color: white;
   text-align: center;
-  padding: 10% 18%;
+  padding: 10% 17%;
   font-size: 0.85em;
 }
 
@@ -129,6 +184,25 @@ body {
   left: 54%;
   bottom: 0.7em;
 }
+
+.main__reason-1_title {
+  padding: 0 20%;
+}
+
+.main__reason-2__title {
+  padding: 0 22.2%;
+}
+
+.main__reason-3__title {
+  padding: 0 22.2%;
+}
+.main__reason-4__title {
+  padding: 0 22.2%;
+}
+.main__reason-5__title {
+  padding: 0 22.2%;
+}
+
 
 .main__photo-city {
   grid-column: 2 / 4;
@@ -440,6 +514,21 @@ body {
   .main-nav {
     font-size: 0.8em;
   }
+  .main__reason-1_title {
+    padding: 0 5%;
+  }
+  .main__reason-2__title {
+    padding: 0;
+  }
+  .main__reason-3__title {
+    padding: 0 5%;
+  }
+  .main__reason-4__title {
+    padding: 0 11%;
+  }
+  .main__reason-5__title {
+    padding: 0 15%;
+  }
   .main__search-house__btn {
     width: 80%;
   }
@@ -451,6 +540,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .header__drop-menu {
+    display: block;
+  }
   .main-logo {
     display: none;
 }
@@ -499,8 +591,87 @@ body {
   }
   .main__photo-city {
     width: 100%;
-    min-height: 260px;
+    height: 260px;
     background-image: url(/img/photo-city-mobile.png);
+    margin-bottom: 10%;
+  }
+  .dignity  {
+    padding: 0;
+    text-align: left;
+  }
+  .photo-icon {
+    float: left;
+    width: 13%;
+    margin: 0 5% 25% 5%;
+  }
+  .main__reason-2 {
+    background-color: #7dc2eb;
+    margin-top: 10%;
+    padding: 5% 10%;
+  }
+  .grey-box {
+    padding: 5% 8%;
+  }
+  .line-white::before {
+    left: 44%;
+    top: 0.7em;
+  }
+  
+  .line-white::after {
+    left: 54%;
+    bottom: 0.65em;
+  }
+  .line-black::before {
+    left: 44%;
+    top: 0.7em;
+  }
+  
+  .line-black::after {
+    left: 54%;
+    bottom: 0.65em;
+  }
+  .main__search-house {
+    padding: 8% 5%;
+    margin-bottom: 10%;
+  }
+  .main__search-house__title {
+    font-size: 1.4em;
+  }
+  .main__search-house__text {
+    font-size: 0.9em;
+  }
+  .main__search-house__btn {
+    width: 87.5%;
+    height: 58px;
+  }
+  .main__map {
+    min-height: 350px;
+  }
+  .map {
+    min-height: 350px;
+  }
+  .footer {
+    height: 243px;
+    flex-wrap: wrap;
+  }
+  .footer__hashtag {
+    width: 100%;
+    padding: 7% 0 4% 0;
+  }
+  .footer__hashtag__title {
+    margin: 2% 0 0 0;
+  }
+  .footer__social {
+    width: 100%;
+    padding: 0;
+  }
+  .footer__social__link {
+    padding: 0;
+  }
+  .footer__creater {
+    width: 100%;
+    text-align: center;
+    padding: 4% 0;
   }
 }
 
