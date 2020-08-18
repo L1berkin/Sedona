@@ -618,6 +618,10 @@ body {
   }
   .grey-box {
     padding: 5% 8%;
+    border-bottom: 1px solid grey;
+  }
+  .grey-box:nth-child(10) {
+    border: none;
   }
   .line-white::before {
     left: 44%;
