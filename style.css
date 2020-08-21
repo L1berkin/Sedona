@@ -221,6 +221,8 @@ body {
   grid-column: 2 / 4;
   grid-row: 1 / 2;
   background-image: url(img/photo-city.svg);
+  background-size: cover;
+  background-position: center;
 }
 
 .main__house {
@@ -247,6 +249,8 @@ body {
   grid-column: 1 / 3;
   grid-row: 3 / 4;
   background-image: url(img/photo-bridge.svg);
+  background-size: cover;
+  background-position: center;
 }
 
 .main__reason-2 {
