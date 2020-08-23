@@ -36,7 +36,7 @@ body {
   padding: 16px 0;
   font-family: "PT Sans";
   background-color: #81b3d2;
-  border-bottom: 1px solid rgb(63, 62, 62);
+  border-bottom: 1px solid rgb(102, 101, 101);
 }
 
 .mobile-nav__link:nth-child(5) {
