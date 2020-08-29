@@ -556,6 +556,14 @@ body {
     left: 55%;
     bottom: 0.6em;
   }
+  .line-white::after {
+    left: 55%;
+    bottom: 0.6em;
+  }
+  .line-white::before {
+    left: 43%;
+    top: 0.6em;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -584,6 +592,14 @@ body {
   .line-black::after {
     left: 57%;
     bottom: 0.6em;
+  }
+  .line-white::after {
+    left: 57%;
+    bottom: 0.6em;
+  }
+  .line-white::before {
+    left: 41%;
+    top: 0.6em;
   }
   .main__reason-5__title {
     padding: 0 15%;
