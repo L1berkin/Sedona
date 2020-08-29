@@ -176,6 +176,11 @@ body {
   text-align: center;
   padding: 10% 17%;
   font-size: 0.85em;
+  transition: 1.5s;
+}
+
+.blue-box:hover {
+  transform: scale(1.1);
 }
 
 .line-white::before {
@@ -216,13 +221,17 @@ body {
   padding: 0 22.2%;
 }
 
-
 .main__photo-city {
   grid-column: 2 / 4;
   grid-row: 1 / 2;
   background-image: url(img/photo-city.svg);
   background-size: cover;
   background-position: center;
+  transition: 1.5s;
+}
+
+.main__photo-city:hover {
+  transform: scale(1.1);
 }
 
 .main__house {
@@ -243,6 +252,11 @@ body {
 .dignity {
   text-align: center;
   padding: 4em 14%;
+  transition: 1.5s;
+}
+
+.dignity:hover {
+  transform: scale(1.1);
 }
 
 .main__photo-bridge {
@@ -251,6 +265,11 @@ body {
   background-image: url(img/photo-bridge.svg);
   background-size: cover;
   background-position: center;
+  transition: 1.5s;
+}
+
+.main__photo-bridge:hover {
+  transform: scale(1.1);
 }
 
 .main__reason-2 {
@@ -279,6 +298,11 @@ body {
   text-align: center;
   padding: 10% 18%;
   font-size: 0.85em;
+  transition: 1.5s;
+}
+
+.grey-box:hover {
+  transform: scale(1.1);
 }
 
 .line-black::before {
@@ -288,7 +312,7 @@ body {
   border-bottom: 1px solid black;
   position: relative;
   left: 44%;
-  top: 0.5em;
+  top: 0.7em;
 }
 
 .line-black::after {
@@ -298,7 +322,7 @@ body {
   border-bottom: 1px solid black;
   position: relative;
   left: 54%;
-  bottom: 0.7em;
+  bottom: 0.6em;
 }
 
 .main__search-house {
@@ -523,6 +547,17 @@ body {
   }
 }
 
+@media screen and (max-width: 1600px) {
+  .line-black::before {
+    left: 43%;
+    top: 0.6em;
+  }
+  .line-black::after {
+    left: 55%;
+    bottom: 0.6em;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   body {
     width: 100%;
@@ -541,6 +576,14 @@ body {
   }
   .main__reason-4__title {
     padding: 0 11%;
+  }
+  .line-black::before {
+    left: 41%;
+    top: 0.6em;
+  }
+  .line-black::after {
+    left: 57%;
+    bottom: 0.6em;
   }
   .main__reason-5__title {
     padding: 0 15%;
@@ -613,6 +656,9 @@ body {
     margin-bottom: 10%;
     order: 2;
   }
+  .main__photo-city:hover {
+    transform: scale(1);
+  }
   .main__photo-bridge {
     width: 100%;
     height: 260px;
@@ -620,10 +666,16 @@ body {
     margin-bottom: 0;
     order: 5;
   }
+  .main__photo-bridge:hover {
+    transform: scale(1);
+  }
   .dignity  {
     order: 3;
     padding: 0;
     text-align: left;
+  }
+  .dignity:hover {
+    transform: scale(1);
   }
   .photo-icon {
     float: left;
@@ -641,6 +693,12 @@ body {
     padding: 5% 8%;
     border-bottom: 1px solid grey;
   }
+  .grey-box:hover {
+    transform: scale(1);
+  }
+  .blue-box:hover {
+    transform: scale(1);
+  }
   .grey-box:nth-child(10) {
     border: none;
   }
@@ -648,7 +706,6 @@ body {
     left: 44%;
     top: 0.7em;
   }
-  
   .line-white::after {
     left: 54%;
     bottom: 0.65em;
@@ -657,7 +714,6 @@ body {
     left: 44%;
     top: 0.7em;
   }
-  
   .line-black::after {
     left: 54%;
     bottom: 0.65em;
